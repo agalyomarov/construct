@@ -19,7 +19,7 @@ $mail->SMTPSecure = "ssl";
 $mail->Port = 465;
 $mail->From = "omaraly971215@yandex.ru";
 $mail->FromName = "";
-$mail->addAddress("omaraly971215@yandex.ru", "");
+$mail->addAddress("iuliakornei@yandex.ru", "");
 $mail->isHTML(true);
 $mail->Subject = "3D конструктор авточехлов онлайн на заказ";
 $content = '';
