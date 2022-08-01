@@ -39,4 +39,5 @@ try {
 } catch (Exception $e) {
    // echo "Mailer Error: " . $mail->ErrorInfo;
    // echo $e->getMessage();
+   echo "error";
 }

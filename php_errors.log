@@ -1,7 +1,0 @@
-[01-Aug-2022 10:21:17 UTC] PHP Fatal error:  Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, PHPMailer\PHPMailer\PHPMailer given in /Users/agaly/Downloads/konstruktor/vendor/phpmailer/phpmailer/src/PHPMailer.php:1080
-Stack trace:
-#0 /Users/agaly/Downloads/konstruktor/vendor/phpmailer/phpmailer/src/PHPMailer.php(1080): trim(Object(PHPMailer\PHPMailer\PHPMailer))
-#1 /Users/agaly/Downloads/konstruktor/vendor/phpmailer/phpmailer/src/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', Object(PHPMailer\PHPMailer\PHPMailer), '')
-#2 /Users/agaly/Downloads/konstruktor/mail.php(23): PHPMailer\PHPMailer\PHPMailer->addAddress(Object(PHPMailer\PHPMailer\PHPMailer), '')
-#3 {main}
-  thrown in /Users/agaly/Downloads/konstruktor/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1080
