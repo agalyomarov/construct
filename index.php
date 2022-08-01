@@ -838,6 +838,10 @@
 				body[data[i].name] = data[i].value;
 			}
 			send_second_form.setAttribute('disabled', 'disabled');
+			alert('Отправлено');
+			document.querySelector(".mfp-container.mfp-s-ready.mfp-inline-holder").click();
+			send_second_form.removeAttribute('disabled');
+			reset_second_form.click();
 			fetch('/mail.php', {
 				method: 'POST',
 				headers: {
@@ -846,10 +850,7 @@
 				},
 				body: JSON.stringify(body)
 			}).then(res => res.text()).then(data => {
-				document.querySelector(".mfp-container.mfp-s-ready.mfp-inline-holder").click();
-				alert('Отправлено');
-				send_second_form.removeAttribute('disabled');
-				reset_second_form.click();
+				console.log(data);
 			})
 		})
 	</script>

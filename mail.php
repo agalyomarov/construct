@@ -1,4 +1,5 @@
 <?php
+$mail_to = 'omaraly971215@yandex.ru';
 ini_set('log_errors', 'On');
 ini_set('error_log', 'php_errors.log');
 $data = json_decode(file_get_contents("php://input"), true);
@@ -19,7 +20,7 @@ $mail->SMTPSecure = "ssl";
 $mail->Port = 465;
 $mail->From = "omaraly971215@yandex.ru";
 $mail->FromName = "";
-$mail->addAddress("iuliakornei@yandex.ru", "");
+$mail->addAddress($mail_to, "");
 $mail->isHTML(true);
 $mail->Subject = "3D конструктор авточехлов онлайн на заказ";
 $content = '';
