@@ -2,6 +2,7 @@
 $mail_to = 'omaraly971215@yandex.ru';
 ini_set('log_errors', 'On');
 ini_set('error_log', 'php_errors.log');
+ini_set('max_execution_time', '900');
 $data = json_decode(file_get_contents("php://input"), true);
 require_once "vendor/autoload.php";
 
