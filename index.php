@@ -13,6 +13,13 @@
 	<meta property="og:title" content="3D конструктор авточехлов онлайн на заказ">
 	<meta property="og:description" content="Сконструируй авточехлы по собственному дизайну с лучшим 3D конструктором автомобильных чехлов от Carabas. Оформи заказ онлайн со скидкой.">
 	<meta property="og:type" content="website">
+	<style>
+		.hide {
+			display: none;
+			position: absolute;
+			z-index: -1000;
+		}
+	</style>
 </head>
 
 <body class="body-page-601 body-template-21">
@@ -22,27 +29,27 @@
 			<div class="container">
 				<h1 class="section__caption">3D конструктор авточехлов</h1>
 				<div class="section__content__calc">
-					<div class="img-chehol" id="img-chehol">
+					<div class="img-chehol imgblock" id="img-chehol">
 						<div class="img-canvas" style="width:100%; height:100%;">
-							<div class="img-base"><img src="assets/constructor/img/1-base/1.png" alt=""></div>
-							<div class="img-yzor"><img src="assets/constructor/img/2-base/type-5/1.png" alt=""></div>
-							<div class="img-center"><img src="assets/constructor/img/2-base/type-5/1.png" alt=""></div>
+							<div class="img-base"><img src="/assets/constructor/img/1-base/1.png" alt=""></div>
+							<div class="img-yzor"><img src="/assets/constructor/img/2-base/type-5/1.png" alt=""></div>
+							<div class="img-center"><img src="/assets/constructor/img/2-base/type-5/1.png" alt=""></div>
 							<div class="border-img">
-								<img src="assets/constructor/img/3-base/type-1/type-1/1.png" alt="" style="display: none" class="border-1">
-								<img src="assets/constructor/img/3-base/type-1/type-2/1.png" alt="" style="display: none" class="border-2">
+								<img src="/assets/constructor/img/3-base/type-1/type-1/1.png" alt="" style="display: none" class="border-1">
+								<img src="/assets/constructor/img/3-base/type-1/type-2/1.png" alt="" style="display: none" class="border-2">
 							</div>
 							<div class="img-border-cut">
-								<img src="assets/constructor/img/3-base/type-1/type-3/1.png" alt="" style="display: none" class="border-3">
-								<img src="assets/constructor/img/3-base/type-1/type-4/1.png" style="display: none" class="border-4" alt="">
+								<img src="/assets/constructor/img/3-base/type-1/type-3/1.png" alt="" style="display: none" class="border-3">
+								<img src="/assets/constructor/img/3-base/type-1/type-4/1.png" style="display: none" class="border-4" alt="">
 							</div>
-							<div class="img-seam"><img src="assets/constructor/img/5-base/5/4.png" alt=""></div>
-							<div class="img-seam-border"><img src="assets/constructor/img/5-base/seam-border/4.png" alt=""></div>
-							<div class="img-head"><img src="assets/constructor/img/4-base/1.png" alt=""></div>
-							<div class="img-cut-head" style="display: none"><img src="assets/constructor/img/3-base/type-3/1.png" alt=""></div>
-							<div class="img-cut-down" style="display: none"><img src="assets/constructor/img/3-base/type-4/1.png" alt=""></div>
-							<div class="img-cut-shirt" style="display: none"><img src="assets/constructor/img/3-base/type-2/1.png" alt=""></div>
-							<div class="img-romb-head" style="display: none;"><img src="assets/constructor/img/2-base/type-9/1.png" alt=""></div>
-							<div class="img-wotermark"><img src="assets/constructor/img/wotermark.png" alt=""></div>
+							<div class="img-seam"><img src="/assets/constructor/img/5-base/5/4.png" alt=""></div>
+							<div class="img-seam-border"><img src="/assets/constructor/img/5-base/seam-border/4.png" alt=""></div>
+							<div class="img-head"><img src="/assets/constructor/img/4-base/1.png" alt=""></div>
+							<div class="img-cut-head" style="display: none"><img src="/assets/constructor/img/3-base/type-3/1.png" alt=""></div>
+							<div class="img-cut-down" style="display: none"><img src="/assets/constructor/img/3-base/type-4/1.png" alt=""></div>
+							<div class="img-cut-shirt" style="display: none"><img src="/assets/constructor/img/3-base/type-2/1.png" alt=""></div>
+							<div class="img-romb-head" style="display: none;"><img src="/assets/constructor/img/2-base/type-9/1.png" alt=""></div>
+							<div class="img-wotermark"><img src="/assets/constructor/img/wotermark.png" alt=""></div>
 						</div>
 					</div>
 					<div class="chehol__form">
@@ -337,6 +344,52 @@
 										</div>
 									</div>
 								</div>
+								<div class="row__table">
+									<div class="coll_1">
+										<div class="title">Двойная прострочка</div>
+										<input type="checkbox" id="2clickcheck" style="width:20px;height:20px;margin-top:5px;">
+									</div>
+									<div class="coll_2 hide" id="2click">
+										<div class=" select-form">
+											<div class="input" style="display: none;"><input type="hidden" name="Двойная прострочка" value=""></div>
+											<div class="selected">
+												<i style="background: #fff;"></i><span>Белый</span>
+											</div>
+											<ul class="select-ul select-ul-type-2" id="Двойная прострочка">
+												<li data-html="Черный" data-select-type="" data-input="Черный" data-i-color="#000"><i style="background: #000;"></i>
+													<div class="name">Черный</div>
+												</li>
+												<li data-html="Темно-серый" data-select-type="" data-input="Темно-серый" data-i-color="#8a8b89"><i style="background: #8a8b89;"></i>
+													<div class="name">Темно-серый</div>
+												</li>
+												<li data-html="Серый" data-select-type="" data-input="Серый" data-i-color="#afadac"><i style="background: #afadac;"></i>
+													<div class="name">Серый</div>
+												</li>
+												<li data-html="Белый" data-select-type="" data-input="Белый" data-i-color="#fefdfe"><i style="background: #fefdfe;"></i>
+													<div class="name selected-li">Белый</div>
+												</li>
+												<li data-html="Бежевый" data-select-type="" data-input="Бежевый" data-i-color="#fef2d6"><i style="background: #fef2d6;"></i>
+													<div class="name">Бежевый</div>
+												</li>
+												<li data-html="Красный" data-select-type="" data-input="Красный" data-i-color="#e06a6e"><i style="background: #e06a6e;"></i>
+													<div class="name">Красный</div>
+												</li>
+												<li data-html="Оранжевый" data-select-type="" data-input="Оранжевый" data-i-color="#feb378"><i style="background: #feb378;"></i>
+													<div class="name">Оранжевый</div>
+												</li>
+												<li data-html="Коричневый" data-select-type="" data-input="Коричневый" data-i-color="#b7856c"><i style="background: #b7856c;"></i>
+													<div class="name">Коричневый</div>
+												</li>
+												<li data-html="Темно-коричневый" data-select-type="" data-input="Темно-коричневый" data-i-color="#6c5f5a"><i style="background: #6c5f5a;"></i>
+													<div class="name">Темно-коричневый</div>
+												</li>
+												<li data-html="Синий" data-select-type="" data-input="Синий" data-i-color="#4b679c"><i style="background: #4b679c;"></i>
+													<div class="name">Синий</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
 								<div class="row__table" style="display: none;" id="color-border-hide">
 									<div class="coll_1">
 										<div class="title">Цвет бочков</div>
@@ -623,7 +676,7 @@
 								</div>
 								<div class="item-check">
 									<input type="checkbox" id="checkbox-6" name="checkbox-6" value="750" style="display: none;">
-									<label for="checkbox-6">
+									<label for="checkbox-6" style="display: none;">
 										Двойная прострочка
 									</label>
 								</div>
@@ -783,6 +836,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 	<script>
 		const first_form = document.getElementById("first_form");
 		const second_form = document.getElementById("second_form");
@@ -790,6 +844,25 @@
 		const reset_second_form = document.getElementById("reset_second_form");
 		const btn_first_form = document.querySelector('.btn_first_form');
 		let body = {};
+		const send = (body) => {
+			html2canvas(document.querySelector(".imgblock")).then(canvas => {
+				var dataURL = canvas.toDataURL("image/jpeg", 0.3);
+				body['img'] = `<img src="${dataURL}">`;
+				// console.log(body);
+				fetch('/mail.php', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(body)
+				}).then(res => res.text()).then(data => {
+					console.log(data);
+				})
+			}).catch(error => {
+				console.log(error);
+			})
+			return false;
+		}
 		send_second_form.addEventListener('click', function(event) {
 			body['Цвет основы'] = document.querySelector('#colorBase .selected-li').textContent;
 			body['Цвет подголовника'] = document.querySelector('#select-color-head .selected-li').textContent;
@@ -812,6 +885,7 @@
 			body['Вышивка логотипов'] = "Нет";
 			body['Двойная прострочка'] = "Нет";
 			body['Дополнительный поролон'] = "Нет";
+			body['Цена за комплект на весь салон'] = document.querySelector('#span-end-price').textContent;
 			if (document.querySelector("#checkbox-1").checked) {
 				body['Подголовник ромб'] = "Да";
 			}
@@ -827,8 +901,8 @@
 			if (document.querySelector("#checkbox-5").checked) {
 				body['Вышивка логотипов'] = "Да";
 			}
-			if (document.querySelector("#checkbox-6").checked) {
-				body['Двойная прострочка'] = "Да";
+			if (document.getElementById("2clickcheck").checked) {
+				body['Двойная прострочка'] = "Да.Цвет : " + document.querySelector("input[name='Двойная прострочка']").value;
 			}
 			if (document.querySelector("#checkbox-7").checked) {
 				body['Дополнительный поролон'] = "Да";
@@ -837,21 +911,24 @@
 			for (let i = 0; i < data.length; i++) {
 				body[data[i].name] = data[i].value;
 			}
+			send(body);
 			send_second_form.setAttribute('disabled', 'disabled');
 			alert('Отправлено');
 			document.querySelector(".mfp-container.mfp-s-ready.mfp-inline-holder").click();
 			send_second_form.removeAttribute('disabled');
 			reset_second_form.click();
-			fetch('/mail.php', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json'
-					// 'Content-Type': 'application/x-www-form-urlencoded',
-				},
-				body: JSON.stringify(body)
-			}).then(res => res.text()).then(data => {
-				console.log(data);
-			})
+		})
+	</script>
+	<script>
+		document.getElementById("2clickcheck").addEventListener("change", function(e) {
+			if (document.getElementById("2click").classList.contains("hide")) {
+				document.querySelector('label[for="checkbox-6"]').click();
+				document.getElementById("2click").classList.remove("hide")
+			} else {
+				document.getElementById("2click").classList.add("hide")
+				document.querySelector('label[for="checkbox-6"]').click();
+			}
+			// console.log(this);
 		})
 	</script>
 </body>
