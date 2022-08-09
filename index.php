@@ -19,13 +19,58 @@
 			position: absolute;
 			z-index: -1000;
 		}
+
+		.header {
+			width: 100%;
+			height: 50px;
+			background-color: #000;
+			float: left;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+
+		.header .container {
+			max-width: 80%;
+			margin-left: 10%;
+			display: flex;
+			justify-content: space-around;
+			padding: 0 20%;
+		}
+
+		@media (max-width: 650px) {
+			.header .container {
+				padding: 0 5%;
+			}
+		}
+
+		.header .container a {
+			display: inline-block;
+			/* line-height: 50px; */
+			color: red;
+			font-size: 18px;
+			background: #fff;
+			margin-top: 10px;
+			padding: 5px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
 	</style>
 </head>
 
 <body class="body-page-601 body-template-21">
 	<div class="wrapper-page">
+		<div class="header">
+			<div class="container">
+				<a href="https://autotuning52.ru/">Главная</a>
+				<a href="https://autotuning52.ru/">Каталог</a>
+				<a href="https://autotuning52.ru/">Контакты</a>
+			</div>
+
+		</div>
 		<div id="no-home-page-id"></div>
-		<div class="section__calc__chehol">
+		<div class="section__calc__chehol" style="padding-top:100px;">
 			<div class="container">
 				<h1 class="section__caption">3D конструктор авточехлов</h1>
 				<div class="section__content__calc">
