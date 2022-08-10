@@ -324,11 +324,36 @@
 										</div>
 									</div>
 								</div>
+
 								<div class="row__table">
 									<div class="coll_1">
-										<div class="title">Цвет боковой нити</div>
+										<div class="title">Дизайн бочков</div>
 									</div>
 									<div class="coll_2">
+										<div class="select-form">
+											<div class="input" style="display: none;"><input type="hidden" name="input-border" value="0"></div>
+											<div class="selected"><span>Стандарт</span></div>
+											<ul class="select-ul select-ul-type-1" id="dizaynBorder">
+												<li data-html="Стандарт" data-type="border-type" data-price="0" data-value="0">
+													<div class="name selected-li">Стандарт</div>
+												</li>
+												<li data-html="Крылья верх" data-type="border-type" data-price="1150" data-value="1">
+													<div class="name">Крылья верх</div>
+												</li>
+												<li data-html="Крылья центр" data-type="border-type" data-price="1150" data-value="2">
+													<div class="name">Крылья центр</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="row__table">
+									<div class="coll_1">
+										<div class="title">Двойная прострочка</div>
+										<input type="checkbox" id="2clickcheck" style="width:20px;height:20px;margin-top:5px;">
+									</div>
+									<div class="coll_2 hide" id="2click">
+
 										<div class="select-form">
 											<div class="input" style="display: none;"><input type="hidden" name="input-seam-bord" value="4"></div>
 											<div class="selected"><i style="background: #fff;" id="i-color-seam-bord"></i><span>Белый</span></div>
@@ -361,74 +386,6 @@
 													<div class="name">Темно-коричневый</div>
 												</li>
 												<li data-html="Синий" data-select-type="color-seam-bord" data-select-img="10" data-input="Синий" data-i-color="#4b679c"><i style="background: #4b679c;"></i>
-													<div class="name">Синий</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="row__table">
-									<div class="coll_1">
-										<div class="title">Дизайн бочков</div>
-									</div>
-									<div class="coll_2">
-										<div class="select-form">
-											<div class="input" style="display: none;"><input type="hidden" name="input-border" value="0"></div>
-											<div class="selected"><span>Стандарт</span></div>
-											<ul class="select-ul select-ul-type-1" id="dizaynBorder">
-												<li data-html="Стандарт" data-type="border-type" data-price="0" data-value="0">
-													<div class="name selected-li">Стандарт</div>
-												</li>
-												<li data-html="Крылья верх" data-type="border-type" data-price="1150" data-value="1">
-													<div class="name">Крылья верх</div>
-												</li>
-												<li data-html="Крылья центр" data-type="border-type" data-price="1150" data-value="2">
-													<div class="name">Крылья центр</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="row__table">
-									<div class="coll_1">
-										<div class="title">Двойная прострочка</div>
-										<input type="checkbox" id="2clickcheck" style="width:20px;height:20px;margin-top:5px;">
-									</div>
-									<div class="coll_2 hide" id="2click">
-										<div class=" select-form">
-											<div class="input" style="display: none;"><input type="hidden" name="Двойная прострочка" value=""></div>
-											<div class="selected">
-												<i style="background: #fff;"></i><span>Белый</span>
-											</div>
-											<ul class="select-ul select-ul-type-2" id="Двойная прострочка">
-												<li data-html="Черный" data-select-type="" data-input="Черный" data-i-color="#000"><i style="background: #000;"></i>
-													<div class="name">Черный</div>
-												</li>
-												<li data-html="Темно-серый" data-select-type="" data-input="Темно-серый" data-i-color="#8a8b89"><i style="background: #8a8b89;"></i>
-													<div class="name">Темно-серый</div>
-												</li>
-												<li data-html="Серый" data-select-type="" data-input="Серый" data-i-color="#afadac"><i style="background: #afadac;"></i>
-													<div class="name">Серый</div>
-												</li>
-												<li data-html="Белый" data-select-type="" data-input="Белый" data-i-color="#fefdfe"><i style="background: #fefdfe;"></i>
-													<div class="name selected-li">Белый</div>
-												</li>
-												<li data-html="Бежевый" data-select-type="" data-input="Бежевый" data-i-color="#fef2d6"><i style="background: #fef2d6;"></i>
-													<div class="name">Бежевый</div>
-												</li>
-												<li data-html="Красный" data-select-type="" data-input="Красный" data-i-color="#e06a6e"><i style="background: #e06a6e;"></i>
-													<div class="name">Красный</div>
-												</li>
-												<li data-html="Оранжевый" data-select-type="" data-input="Оранжевый" data-i-color="#feb378"><i style="background: #feb378;"></i>
-													<div class="name">Оранжевый</div>
-												</li>
-												<li data-html="Коричневый" data-select-type="" data-input="Коричневый" data-i-color="#b7856c"><i style="background: #b7856c;"></i>
-													<div class="name">Коричневый</div>
-												</li>
-												<li data-html="Темно-коричневый" data-select-type="" data-input="Темно-коричневый" data-i-color="#6c5f5a"><i style="background: #6c5f5a;"></i>
-													<div class="name">Темно-коричневый</div>
-												</li>
-												<li data-html="Синий" data-select-type="" data-input="Синий" data-i-color="#4b679c"><i style="background: #4b679c;"></i>
 													<div class="name">Синий</div>
 												</li>
 											</ul>
@@ -893,7 +850,7 @@
 			html2canvas(document.querySelector(".imgblock")).then(canvas => {
 				var dataURL = canvas.toDataURL("image/jpeg", 0.3);
 				body['img'] = `<img src="${dataURL}">`;
-				// console.log(body);
+				console.log(body);
 				fetch('/mail.php', {
 					method: 'POST',
 					headers: {
@@ -947,7 +904,7 @@
 				body['Вышивка логотипов'] = "Да";
 			}
 			if (document.getElementById("2clickcheck").checked) {
-				body['Двойная прострочка'] = "Да.Цвет : " + document.querySelector("input[name='Двойная прострочка']").value;
+				body['Двойная прострочка'] = "Да.Цвет : " + (document.querySelector("input[name='input-seam-bord']").value == 4 ? 'Белый ' : document.querySelector("input[name='input-seam-bord']").value);
 			}
 			if (document.querySelector("#checkbox-7").checked) {
 				body['Дополнительный поролон'] = "Да";
